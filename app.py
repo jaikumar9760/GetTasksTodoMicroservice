@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # Fetch the connection string from the environment variable
-connection_string = "Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-todoappmicro-server.database.windows.net,1433;Database=sqldb-todomicroapp;Uid=devopsadmin;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+connection_string = "Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-todoappmicro-server.database.windows.net,1433;Database=sqldb-todomicroapp;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
 
 # Check if the connection string is available
 if connection_string:
